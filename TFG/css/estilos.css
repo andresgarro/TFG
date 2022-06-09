@@ -1,0 +1,411 @@
+.holder_content{
+  background-color: beige;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  min-height: 61.2vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 15px;
+  height: auto;
+}
+
+body {
+  font-family: "Audiowide", sans-serif;
+}
+
+header {
+  font-family: "Audiowide", sans-serif;
+}
+
+#intro{
+  font-family: "Audiowide", sans-serif;
+}
+
+#boton_entrenar{
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.empezar{
+  width: 220px;
+  height: 66px;
+  border-radius: 3px;
+  border-style: none;
+  letter-spacing: ;
+  font-weight: bolder;
+  background-color: lightblue;
+  margin: 3px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.empezar:hover{
+  background-color: lightskyblue;
+  cursor: pointer;
+}
+
+.b_input{
+  border-radius: 3px;
+  border-style: none;
+  width: 150px;
+  height: 35px;
+  letter-spacing: ;
+  font-weight: bolder;
+  background-color: lightblue;
+  margin: 3px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.b_input:hover{
+  background-color: lightskyblue;
+  cursor: pointer;
+}
+
+.b_input_r:hover{
+  background-color: lightskyblue;
+  cursor: pointer;
+}
+
+.b_input_r{
+  border-radius: 3px;
+  border-style: none;
+  width: 300px;
+  height: 50px;
+  letter-spacing: ;
+  font-weight: bolder;
+  background-color: lightblue;
+  margin: 3px;
+  font-family: "Audiowide", sans-serif;
+}
+
+
+table tr:nth-child(odd){
+  background-color: white;
+}
+
+table tr:nth-child(even){
+  background-color: #A6DAE7;
+}
+
+table{
+  overflow-x: auto;
+  background-color: white;
+  width: auto;
+  border-radius: 5px;
+}
+
+th{
+  border-style: none;
+}
+
+.ejer_img{
+  width: 70px;
+  height: 60px;
+  vertical-align: middle;
+  border-radius: 5px;
+  transition: transform .8s; 
+}
+
+.ejer_img:hover{
+  cursor: pointer;
+  transform: scale(2.7); 
+}
+
+.ejer_t{
+  text-align: center;
+}
+
+td{
+  min-width: 105px;
+  border-style: none;
+}
+
+td input{
+  width: 100%;
+  border-radius: 2px;
+  background-color: lightblue;
+  font-family: "Audiowide", sans-serif;
+}
+
+.current{
+  background-color: lightgrey;
+}
+
+#grid-registro{
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  width: 250px;
+  height: 350px;
+  text-align: center;
+}
+
+#grid-log_out{
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  width: 250px;
+  height: 350px;
+}
+
+#grid-login{
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  width: 250px;
+  height: 350px;
+}
+
+.group1{
+  grid-row: 2/3;
+  grid-column: 2/3;
+  justify-self: center;
+}
+
+#opciones{
+  text-align: center;
+}
+
+.opcion{
+  border-radius: 3px;
+  border-style: none;
+  height: 40px;
+  width: 120px;
+  letter-spacing: ;
+  font-weight: bolder;
+  background-color: lightblue;
+  margin: 3px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.opcion:hover{
+  background-color: lightskyblue;
+  cursor: pointer;
+}
+
+footer{
+  font-weight: 20px;
+  background-color: #3FB2CE;
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 65px;
+  position: absolute;
+}
+
+#grid-footer{
+  font-size: 16px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto;
+  grid-gap: 10%;
+  justify-content: center;
+  align-content: space-between;
+  padding-bottom:30px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.r_input {
+  border-radius: 10px;
+  min-width: 90px;
+  text-align: center;
+  background-color: beige;
+}
+
+.slide_img {
+  border-radius: 10px;
+  vertical-align: middle;
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.active {
+  background-color: #717171;
+}
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+header {
+  display: flex;
+  background-color: white;
+  justify-content:space-between;
+  align-items: center;
+}
+
+header>span {
+  padding: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+#auto-gym {
+  text-align: center;
+  font-size: 35px;
+}
+
+.menu {
+  width:100%;
+  display: flex;
+  position:absolute;
+  top:4rem;
+  flex-direction:column;
+  background-color: lightskyblue;
+  display:none;
+  transform: translatex(-100%);
+  transition:transform 0.4s;
+}
+
+#hamburguesa{
+  display:none;
+}
+
+#icono{
+  padding:1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.menu li {
+  padding:1rem;
+  margin:1px;
+  text-align:center;
+}
+
+#hamburguesa:checked ~ .menu {
+  display:block;
+  transform: translatex(0%);
+}
+
+.menu li:hover{
+  background: rgba(0,0,0,0.3);
+}
+
+.responsivo{
+  display: none;
+}
+
+@media only screen and (min-width:768px){
+
+  .responsivo{
+    display: table-cell;
+  }
+
+  .menu {
+    display: flex;
+    transform: translatex(0%);
+    transition:none;
+    top:0.5rem;
+    right: 0.5rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+    z-index: 1;
+    background-color: white;
+    list-style: none;
+  }
+
+  .menu li{
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  #icono{
+    display: none;
+  }
+
+  #logo{
+    z-index: 2;
+  }
+
+  #boton-registro{
+    background-color: lightskyblue;
+  }
+
+  #boton-registro:hover{
+    background-color: lightblue;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+
+  .slide_img {
+    border-radius: 10px;
+    vertical-align: middle;
+    max-width: 850px;
+    min-width: 850px;
+    min-height: 350px;
+  }
+
+  .slideshow-container {
+    text-align: center;
+    position: relative;
+    margin: auto;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  i{
+    color: black;
+  }
+
+  #grid-footer{
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 10%;
+    justify-content: center;
+    align-content: space-between;
+    padding-bottom: 0px;
+  }
+
+  #contenedor1{
+    grid-column: 1/2;
+  }
+
+  #contenedor2{
+    grid-column: 2/3;
+  }
+
+  #contenedor3{
+    grid-column: 3/4;
+  }
+
+}
