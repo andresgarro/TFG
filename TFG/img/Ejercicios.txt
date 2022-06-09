@@ -1,0 +1,46 @@
+'Squat Jump', '15', 'Pierna', 'Basico';
+'Back Squat', '10-12', 'Pierna', 'Avanzado';
+'Prensa', '10-12', 'Pierna', 'Avanzado';
+'Extensión de rodilla', '10-12', 'Pierna', 'Basico';
+'Curl de Isquiotibiales', '10-12', 'Pierna', 'Basico';
+'Step Up', '10-12', 'Pierna', 'Basico';
+'Lunges con cada pierna', '10-12', 'Pierna', 'Avanzado';
+'Máquina de abductores', '10-12', 'Pierna', 'Avanzado';
+
+'Remo con barra', '10-12', 'Espalda', 'Avanzado';
+'Remo con polea horizontal', '10-12', 'Espalda', 'Basico';
+'Remo con mancuerna', '10-12', 'Espalda', 'Basico';
+'Dominadas, 10-12, Espalda, Avanzado';
+'Peso muerto', '8-10', 'Espalda', 'Avanzado';
+'Dominadas con ayuda', '8-10', 'Espalda', 'Basico';
+'Remo invertido', '10-15', 'Espalda', 'Basico';
+'Polea al pecho', '10-12', 'Espalda', 'Avanzado';
+
+'Curl de bíceps con mancuerna', '10-12', 'Brazo', 'Basico';
+'Curl de bíceps con barra Z', '10-12', 'Brazo', 'Avanzado';
+'Fondos de tríceps', '10-15', 'Brazo', 'Avanzado';
+'Extensiones de tríceps en polea', '10-12', 'Brazo', 'Basico';
+'Tríceps tras nuca con mancuerna', '10-12', 'Brazo', 'Avanzado';
+'Curl de bíceps con máquina', '10-12', 'Brazo', 'Basico';
+'Curl de bíceps con mancuerna alternado', '10-12', 'Brazo', 'Basico';
+'Flexiones de tríceps', '10-12', 'Brazo', 'Avanzado';
+
+'Flexiones', '10-12', 'Pecho, 'Basico';
+'Flexiones con manos juntas', '10-12', 'Pecho', 'Avanzado';
+'Press de banca con mancuernas', '10-12', 'Pecho', 'Basico';
+'Press de banca con barra', '10-12', 'Pecho', 'Basico';
+'Flexiones con peso', '10-12', 'Pecho', 'Avanzado';
+'Press de banca inclinado', '10-12', 'Pecho', 'Avanzado';
+'Aleteo con cable', '10-12', 'Pecho', 'Basico';
+'Aperturas con mancuernas', '10-12', 'Pecho', 'Avanzado';
+
+id_ejercicios en un array entrenamiento (ids_ejer)
+id usuario fuera del array
+imprimirlos en una tabla (ENTRENAMIENTOS)
+en inicio 1 botón (ENTRENAR)
+
+
+id_ejercicios en un array entrenamiento (ids_ejer)
+id usuario fuera del array
+imprimirlos en una tabla (ENTRENAMIENTOS)
+en inicio 1 botón (ENTRENAR)
