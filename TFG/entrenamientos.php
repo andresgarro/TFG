@@ -95,7 +95,7 @@ require_once('lib/ejercicios_model.php'); ?>
   					}
   					if ($indice == "repeticiones" && $indice_r == 0) {
   						$indice_r++;
-  						echo "<th>";
+  						echo "<th style='text-align: center'>";
 						echo "Repeticiones";
 						echo "</th>";
   					}
