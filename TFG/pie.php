@@ -4,10 +4,10 @@
       <div id="grid-footer">
          <div id="contenedor2">
             <h3>Redes sociales</h3><br>
-            <i class="fab fa-instagram"></i> Instagram<br>
-            <i class="fab fa-twitter"></i> Twitter<br>
-            <i class="fab fa-whatsapp"></i> WhatsApp<br>
-            <i class="fas fa-envelope"></i> Mail<br>
+            <span class="r_sociales"><i class="fab fa-instagram"></i> Instagram</span><br>
+            <span class="r_sociales"><i class="fab fa-twitter"></i> Twitter</span><br>
+            <span class="r_sociales"><i class="fab fa-whatsapp"></i> WhatsApp</span><br>
+            <span class="r_sociales"><i class="fas fa-envelope"></i> Mail</span><br>
          </div>
          <div id="contenedor3">
             <h3>Sitios</h3><br>
