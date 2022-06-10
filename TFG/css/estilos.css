@@ -10,6 +10,12 @@
   height: auto;
 }
 
+.r_sociales:hover{
+  cursor: pointer;
+  transform: scale(3);
+  color: white;
+}
+
 body {
   font-family: "Audiowide", sans-serif;
 }
@@ -127,6 +133,10 @@ td input{
   font-family: "Audiowide", sans-serif;
 }
 
+#mensaje_error{
+  font-size: 10px;
+}
+
 .current{
   background-color: lightgrey;
 }
@@ -137,7 +147,7 @@ td input{
   border-radius: 10px;
   background-color: white;
   width: 250px;
-  height: 350px;
+  height: 450px;
   text-align: center;
 }
 
@@ -148,7 +158,7 @@ td input{
   border-radius: 10px;
   background-color: white;
   width: 250px;
-  height: 350px;
+  height: 450px;
 }
 
 #grid-login{
@@ -158,7 +168,15 @@ td input{
   border-radius: 10px;
   background-color: white;
   width: 250px;
-  height: 350px;
+  height: 450px;
+}
+
+#login{
+  padding-top: 20px;
+}
+
+#registro{
+  padding-top: 20px;
 }
 
 .group1{
