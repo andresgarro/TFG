@@ -16,6 +16,15 @@
   color: white;
 }
 
+#boton_ver:hover{
+  cursor: pointer;
+  background-color: skyblue;
+}
+
+input{
+  font-family: "Audiowide", sans-serif;
+}
+
 body {
   font-family: "Audiowide", sans-serif;
 }
